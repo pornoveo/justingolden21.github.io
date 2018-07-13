@@ -39,7 +39,7 @@
         "website",
         "webpage",
         "front end",
-        "back end"
+        "back end",
         "full stack",
         "web app"
       ]
@@ -120,7 +120,7 @@
       "gpa": "",
       "courses": [
         "Machine Organization and Assembly Language", 
-        "Data Structures"
+        "Data Structures",
         "Programming Languages",
         "Computer Architecture", 
         "Discrete Math", 

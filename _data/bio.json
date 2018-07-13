@@ -1,58 +1,72 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Justin Golden",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "email": "justingolden@rgbstudios.org",
+    "phone": "310-425-5338",
+    "website": "https://justingolden21.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at San Diego State University. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "",
+      "city": "San Diego",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "California"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "justingolden21",
+        "url": "http://github.com/justingolden21"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "justingolden21",
+        "url": "http://linkedin.com/in/justingolden21"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "justingolden21",
+        "url": "http://twitter.com/justingolden21"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "web development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "website",
+        "webpage",
+        "front end",
+        "back end"
+        "full stack",
+        "web app"
       ]
     },
     {
-      "name": "data mining",
+      "name": "android development",
       "keywords": [
+        "mobile",
+        "apps"
+      ]
+    },
+    {
+      "name": "graphic design",
+      "keywords": [
+        "design",
+        "graphic",
+        "digital design",
+        "icon",
+        "logo"
       ]
     },
     {
       "name": "artificial intelligence",
       "keywords": [
+        "machine learning",
+        "bot",
+        "chatbot"
       ]
     }
   ],
@@ -61,109 +75,83 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Semantic UI",
+        "Angular",
+        "Sass",
+        "Json",
+        "XML",
+        "Java",
+        "C++",
+        "C#",
+        "Kotlin",
+        "Python",
+        "SQL"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Windows",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Google Docs",
+        "Google Sheets",
+        "Google Slides",
+        "Microsoft Word",
+        "Microsoft Powerpoint",
+        "Microsoft Excel",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe Premiere Pro"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "San Diego State University, San Diego, CA",
+      "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2015",
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "Machine Organization and Assembly Language", 
+        "Data Structures"
+        "Programming Languages",
+        "Computer Architecture", 
+        "Discrete Math", 
+        "Linear Algebra",
+        "Computer Science Ethics",
+        "Systems Programming",
+        "Algorithms and their Analysis",
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "RGB Studios",
+      "position": "President, Web Developer",
+      "website": "rgbstudios.org",
+      "startDate": "2015",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Head of online presence and development of website, web apps, and android apps",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Maintain and update website, web apps, and android apps",
+        "Provide support and listen to feedbac of users",
+        "Design pixel and vector, graphics, and video editing"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
+      "title": "AGL Game Jam 2018 Participant",
+      "date": "2018",
+      "awarder": "Aztec Game Lab",
+      "summary": "participated in a game jam team to develop a complete game in unity in under 48 hours"
     }
   ]
 }

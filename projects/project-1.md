@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/desktopclock.png
+image: images/clock_icon.svg
 title: Desktop Clock
 permalink: projects/desktopclock
 # All dates must be YYYY-MM-DD format!
@@ -18,10 +18,10 @@ summary: I developed a popular clock chrome web app. It currently has 17,000 wee
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/desktopclock-shot1.png">
+  <img class="ui image" src="../images/desktopclock-shot2.png">  
+  <img class="ui image" src="../images/desktopclock-shot3.png">
+  <img class="ui image" src="../images/desktopclock-shot4.png">
 </div>
 
 Desktop Clock is a simple, resizable, customizable, clock app.

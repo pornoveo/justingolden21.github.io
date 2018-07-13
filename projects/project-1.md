@@ -22,6 +22,8 @@ summary: I developed a popular clock chrome web app. It currently has 17,000 wee
   <img class="ui image" src="../images/desktopclock-shot2.png">  
   <img class="ui image" src="../images/desktopclock-shot3.png">
   <img class="ui image" src="../images/desktopclock-shot4.png">
+  <img class="ui image" src="../images/desktopclock-shot5.png">
+  <img class="ui image" src="../images/desktopclock-shot6.png">
 </div>
 
 Desktop Clock is a simple, resizable, customizable, clock app.

@@ -1,16 +1,20 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/desktopclock.png
+title: Desktop Clock
+permalink: projects/desktopclock
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2015-04-23
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Web App
+  - Chrome Web App
+  - Clock
+  - Chrome OS
+  - HTML
+  - CSS
+  - Javascript
+summary: I developed a popular clock chrome web app. It currently has 17,000 weekly users.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +24,28 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Desktop Clock is a simple, resizable, customizable, clock app.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Options:
+ - Ticking, sweeping, or hidden second hand
+ - Simple mode
+ - Night mode, black background, and 12 themes
+ - Digital and analog displays
+ - Display date and/or battery level
+ - Doubleclick fullscreen
+ - Keyboard shortcuts
+ - Always on top mode
+ - Open ultiple instances of Desktop Clock
+ - Small file size (<1mb)
+ - Saves you settings automatically
+ - Available in English, Spanish, French, German, and Russian
+ - Desktop Clock is a vector, so it resizes perfectly on any screen, regardless of size or pixel density.
 
-Here is some code that illustrates how we read values from the line sensors:
+Desktop Clock was the first chrome web app I published. After a year or two, it got very popular and I got many feature requests and some notices of bugs. Since then, I've added many user requested features, including always on top mode, a ticking second hand, analog mode, themes, the option to resize Desktop Clock into an extremly small size, the option to open multiple clocks, and the option to remove the title bar.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+The entire app is written in plain HTML, CSS, and Javascript, so the app can run offline with a very small file size.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+The entire app, and all promotional images and assets, descriptions, and the trailer were all designed by me.
 
-
+You can find the app on the [Chrome web store](https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc).
 

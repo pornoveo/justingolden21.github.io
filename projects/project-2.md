@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/binomial_app_icon.svg
+image: images/binomial_app_icon.png
 title: Binomial Distribution Android App
 permalink: projects/dinomial-app
 # All dates must be YYYY-MM-DD format!

@@ -7,18 +7,11 @@ permalink: projects/dinomial-app
 # All dates must be YYYY-MM-DD format!
 date: 2018-07-06
 labels:
-  - Android App
   - Android Application
-  - Mobile App
   - Mobile Application
-  - Binomial
   - Binomial Distribution
   - Binomial Probablility
   - Binomial Calculator
-  - Calculator
-  - Calc
-  - Stats
-  - Statistics
   - Binomial Statistics
 summary: I developed a binomial distribution calculator for Android that provides users with the odds of different statistics and provides them with graphs to visualize the data.
 ---

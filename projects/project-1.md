@@ -37,7 +37,7 @@ Options:
  - Doubleclick fullscreen
  - Keyboard shortcuts
  - Always on top mode
- - Open ultiple instances of Desktop Clock
+ - Open multiple instances of Desktop Clock
  - Small file size (<1mb)
  - Saves you settings automatically
  - Available in English, Spanish, French, German, and Russian

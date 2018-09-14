@@ -43,6 +43,8 @@ Options:
  - Available in English, Spanish, French, German, and Russian
  - Desktop Clock is a vector, so it resizes perfectly on any screen, regardless of size or pixel density.
 
+Most of these features were suggested by users via the chrome web store or email.
+
 Desktop Clock was the first chrome web app I published. After a year or two, it got very popular and I got many feature requests and some notices of bugs. Since then, I've added many user requested features, including always on top mode, a ticking second hand, analog mode, themes, the option to resize Desktop Clock into an extremly small size, the option to open multiple clocks, and the option to remove the title bar.
 
 The entire app is written in plain HTML, CSS, and Javascript, so the app can run offline with a very small file size.

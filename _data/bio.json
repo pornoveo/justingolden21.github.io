@@ -29,39 +29,23 @@
   },
   "interests": [
     {
-      "name": "web development",
+      "name": "Web development",
       "keywords": [
-        "website",
-        "webpage",
-        "front end",
-        "back end",
-        "full stack",
-        "web app"
       ]
     },
     {
-      "name": "android development",
+      "name": "Android development",
       "keywords": [
-        "mobile",
-        "apps"
       ]
     },
     {
-      "name": "graphic design",
+      "name": "Graphic design",
       "keywords": [
-        "design",
-        "graphic",
-        "digital design",
-        "icon",
-        "logo"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial Intelligence",
       "keywords": [
-        "machine learning",
-        "bot",
-        "chatbot"
       ]
     }
   ],
@@ -76,13 +60,12 @@
         "Bootstrap",
         "Semantic UI",
         "Angular",
-        "Sass",
+        "SASS",
         "Json",
         "XML",
         "Java",
         "C++",
         "C#",
-        "Kotlin",
         "Python",
         "SQL"
       ]
@@ -93,6 +76,10 @@
       "keywords": [
         "Windows",
         "Git/GitHub",
+        "Android Studio",
+        "Unity",
+        "Github Desktop",
+        "Sublime Text",
         "Google Docs",
         "Google Sheets",
         "Google Slides",
@@ -123,21 +110,23 @@
         "Computer Science Ethics",
         "Systems Programming",
         "Algorithms and their Analysis",
+        "Operating Systems",
+        "3D Game Programming"
       ]
     }
   ],
   "work": [
     {
       "company": "RGB Studios",
-      "position": "President, Web Developer",
+      "position": "President, Founder, Web Developer",
       "website": "rgbstudios.org",
       "startDate": "2015",
       "endDate": "Present",
       "summary": "Head of online presence and development of website, web apps, and android apps",
       "highlights": [
         "Maintain and update website, web apps, and android apps",
-        "Provide support and listen to feedbac of users",
-        "Design pixel and vector, graphics, and video editing"
+        "Provide support and listen to user feedback",
+        "Design pixel and vector icons and graphics and edit videos"
       ]
     }
   ],
@@ -146,7 +135,7 @@
       "title": "AGL Game Jam 2018 Participant",
       "date": "2018",
       "awarder": "Aztec Game Lab",
-      "summary": "participated in a game jam team to develop a complete game in unity in under 48 hours"
+      "summary": "Participated in a game jam team to develop a complete game in unity in under 48 hours"
     }
   ]
 }

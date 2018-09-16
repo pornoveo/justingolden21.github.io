@@ -10,6 +10,6 @@ My resume can be found [here](https://docs.google.com/document/d/1VVc8aKE7PzgPKu
 
 My LinkedIn is [here](http://linkedin.com/in/justingolden21)
 
-<img src="images/justingolden-profile.jpg">
+<img src="images/profile-justingolden.svg" width="128px">
 
 Built using [TechFolio](http://techfolios.github.io)

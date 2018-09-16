@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.6 187.4">
 <style type="text/css">
 .st0{fill:#151515;}
-.st1{fill:#EAA88A;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st2{fill:#FFFFFF;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st3{fill:#1C6B67;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st4{fill:#562B0E;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st5{fill:none;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st6{fill:#151515;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
-.st7{fill:#C57269;stroke:#151515;stroke-width:2;stroke-miterlimit:10;}
+.st1{fill:#EAA88A;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st2{fill:#FFFFFF;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st3{fill:#1C6B67;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st4{fill:#562B0E;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st5{fill:none;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st6{fill:#151515;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
+.st7{fill:#C57269;stroke:#151515;stroke-width:2.5;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M17.1,128.2C-1.5,93-12.8,38.2,25.7,11.8c32.7-22.4,76.5-11.4,98.2,20.7c19.7,28.9,15.6,69.2-6.5,95.7
 	C90.3,160.8,46.6,154.4,17.1,128.2z"/>

@@ -111,7 +111,9 @@
         "Systems Programming",
         "Algorithms and their Analysis",
         "Operating Systems",
-        "3D Game Programming"
+        "3D Game Programming",
+        "Advanced 3D Game Programming",
+        "Database Techniques"
       ]
     }
   ],
@@ -135,7 +137,7 @@
       "title": "AGL Game Jam 2018 Participant",
       "date": "2018",
       "awarder": "Aztec Game Lab",
-      "summary": "Participated in a game jam team to develop a complete game in unity in under 48 hours"
+      "summary": "Participated in a game jam team to develop a complete game in Unity in under 48 hours"
     }
   ]
 }

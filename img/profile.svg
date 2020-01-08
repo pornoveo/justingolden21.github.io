@@ -1,81 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Justin Golden's Portfolio</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	<meta name="title=" content="Justin Golden's Portfolio">
-	<meta name="robots" content="index, follow">
-	<meta name="description" content="Justin Golden's personal portfolio">
-	<meta name="keywords" content="WebDev, WebDevelopment, WebDeveloper, FrontEnd, FrontEndWebDev, WebDesign">
-
-	<meta name="theme-color" content="#333">
-	<meta name="msapplication-navbutton-color" content="#333">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#333">
-
-	<!-- font awesome, bootstrap, jquery, popper -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-	<!-- https://raw.githubusercontent.com/jonsuh/hamburgers/master/dist/hamburgers.min.css -->
-	<link rel="stylesheet" type="text/css" href="css/hamburger.css">
-
-	<!-- local links -->
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link id="nametag-css" rel="stylesheet" type="text/css" href="">
-	<script type="text/javascript" src="js/scripts.js"></script>
-
-</head>
-<body>
-	<div id="top-container">
-
-		<button id="menu-btn" class="hamburger hamburger--squeeze btn" type="button">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"/>
-			</span>
-		</button>
-
-		<nav id="sidebar">
-			<a href="#" class="active"><i class="fas fa-home"></i> Home</a>
-			<a href="https://docs.google.com/document/d/1VVc8aKE7PzgPKuNurS1LN_qIJpVeo88-q3IT4Qr215Y" target="_blank"><i class="fas fa-id-card"></i> R&#233;sum&#233;</a>
-			<a href="projects.html"><i class="fas fa-drafting-compass"></i> Projects</a>
-			<!-- <a href="#">Clients</a> -->
-		</nav>
-
-		<div class="row">
-			<div id="tag-col-1" class="col-md-2 tag-col"></div>
-			<div id="tag-col-2" class="col-md-2 tag-col"></div>
-			<div class="col-md-4">
-				<!-- <img id="profile-img" src="img/profile/1.png" draggable="false"> -->
-				<!-- <img id="profile-img" src="img/profile.svg" draggable="false"> -->
-
-<!-- need raw svg data for animation to work -->
-<svg id="profile-img" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 270.3 295.9" style="enable-background:new 0 0 270.3 295.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#91D8F7;}
-	.st1{fill:#FFD6B5;}
-	.st2{fill:#FCCEA9;}
-	.st3{fill:#3A3C38;}
-	.st4{fill:#5D625C;}
-	.st5{fill:#373435;}
-	.st6{fill:#E0A07D;}
-	.st7{fill:#F1C098;}
-	.st8{fill:#E3867F;}
-	.st9{fill:#FEFEFE;}
-	.st10{fill:#3B2929;}
-	.st11{fill:#CA7486;}
-	.st12{fill:#FFDCBF;}
-	.st13{fill:#C99580;}
-	.st14{fill:#F5928B;}
-	.st15{fill:#362727;}
-	.st16{fill:#FFE3CC;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#91D8F7;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFD6B5;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FCCEA9;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#3A3C38;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#5D625C;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#373435;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#E0A07D;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#F1C098;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#E3867F;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FEFEFE;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#3B2929;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#CA7486;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#FFDCBF;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#C99580;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#F5928B;}
+	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#362727;}
+	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE3CC;}
 </style>
 <g id="Layer_x0020_1">
 	<ellipse class="st0" cx="135.1" cy="161.8" rx="135.1" ry="134.1"/>
@@ -289,38 +233,3 @@
 		C153.2,156.2,157.2,159,157.2,159z"/>
 </g>
 </svg>
-
-			</div>
-			<div id="tag-col-3" class="col-md-2 tag-col"></div>
-			<div id="tag-col-4" class="col-md-2 tag-col"></div>
-		</div>
-
-		<hr>
-
-		<div id="nametag">
-			<h3 class="nametag-text">Hello</h3>
-			<h5 class="nametag-text">my name is</h5>
-			<h1 id="fade-in-heading">Justin Golden</h1>
-		</div>
-
-		<h5>Programmer. &nbsp; Writer. &nbsp; Graphic Designer</h5>
-		
-		<button id="mail-btn" class="btn btn-dark mx-2" title="Email me at justingolden@rgbstudios.org" data-toggle="tooltip" data-placement="bottom">
-			<i id="envelope-icon" class="fas fa-envelope"></i>
-		</button>
-		<button id="linkedin-btn" class="btn btn-dark mx-2" title="View my LinkedIn" data-toggle="tooltip" data-placement="bottom">
-			<i class="fab fa-linkedin"></i>
-		</button>
-		<button id="github-btn" class="btn btn-dark mx-2" title="View my GitHub" data-toggle="tooltip" data-placement="bottom">
-			<i class="fab fa-github"></i>
-		</button>
-
-		<hr>
-
-		<h6>About</h6>
-		<p class="my-3 text-left">I am a front end web developer located in San Diego, CA. I graduated from San Diego State University in 2019 with a major in computer science and a minor in creative writing. I am a quick learner, and I work carefully and efficiently. I pride myself on designing simple, elegant, and responsive user interfaces. Feel free to browse my <a href="projects.html">projects</a>. Feel free to contact me using the buttons above. </p>
-		<h6>Interests</h6>
-		<p class="my-3 text-left">I enjoy board games, card games, creative writing, basketball, running, video editing, graphic design, and web development. </p>
-	</div>
-</body>
-</html>

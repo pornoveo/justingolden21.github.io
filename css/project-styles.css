@@ -1,0 +1,74 @@
+.project-div {
+	padding: 10px;
+	/*border: 2px solid #333;*/
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+.project-div:hover {
+	background-color: #ccc;
+}
+.project-title a {
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	padding: 2px;
+}
+.project-div:hover .project-title a {
+	color: #333;
+	text-decoration: underline;
+}
+.project-icon {
+	margin-top: 10px;
+	width: 64px;
+}
+.project-desc, .project-details {
+	padding: 20px;
+	padding-top: 10px;
+	text-align: left;
+}
+.project-screenshot {
+	width: 90%;
+	/*width: 40%;*/
+	/*width: 200px;*/
+	box-shadow: 5px 5px 0px #333;
+}
+.project-div:hover .project-details {
+	display: inline;
+}
+
+/* modals */
+.modal-content {
+	border: 2px solid #999;
+	border-radius: 0;
+}
+.modal-header {
+	border-bottom: 2px solid #999;
+}
+.close {
+	color: #666;
+	opacity: 1 !important;
+	box-shadow: none;
+	font-size: 200%;
+}
+.close:hover {
+	color: #333;
+}
+.close:focus {
+	box-shadow: 0 0 0 0.2rem rgba(51,51,51,.25);
+	outline: none;
+}
+.modal-content h3 {
+	color: #666;
+}
+
+@media only screen and (max-width: 768px) { /* md */
+	.project-screenshot {
+		/* centered */
+		margin: auto;
+		display: block;
+	}
+	.project-desc, .project-details {
+		padding: 15px;
+	}
+}

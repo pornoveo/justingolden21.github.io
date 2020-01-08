@@ -1,0 +1,41 @@
+/* https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+.project-div {
+	background-color: transparent;
+	height: 225px;
+	perspective: 1000px; /* 3D effect */
+}
+.project-div-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+.project-div:hover .project-div-inner {
+	transform: rotateY(180deg);
+}
+.project-div-front, .project-div-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+.project-div-back {
+	background-color: #999;
+	color: #fff;
+	transform: rotateY(180deg);
+}
+.project-desc-link {
+	color: #fff;
+}
+.project-desc-link:hover, .project-desc-link:focus {
+	color: #fff;
+}
+.project-desc-link:before {
+	background-color: #fff; /* underline effect */
+}
+.project-div-back .project-icon {
+	background-color: #fff;
+	border-radius: 10px;
+}

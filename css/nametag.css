@@ -1,0 +1,23 @@
+#nametag {
+	margin: auto;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	background-color: #c33;
+}
+.nametag-text {
+	color: #fff;
+}
+#nametag h1 {
+	padding: 20px;
+	background-color: #fff;
+	width: 100%;
+}
+
+/* media */
+@media screen and (max-width: 768px) { /*md*/
+	#nametag {
+		width: 60vw;
+	}
+}

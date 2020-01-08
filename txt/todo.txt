@@ -1,0 +1,12 @@
+todo later:
+use http://realfavicongenerator.net
+
+dumb ideas:
+1/1000 chance of breakout? add as a query param? q=breakout
+
+decent ideas:
+make features bullet point list?
+add copy link to my website btn?
+scroll through carousel of images/screenshots in modal?
+only open modal if not clicking on link to open project in new tab
+add 404?

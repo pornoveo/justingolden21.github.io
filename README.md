@@ -6,7 +6,7 @@
 
 *I am a front end web developer located in San Diego, CA. I graduated from San Diego State University in 2019 with a major in computer science and a minor in creative writing.*
 
-This is the Git repository for my personal homepage and portfolio, which can be found [here](justingolden.me)
+This is the Git repository for my personal homepage and portfolio, which can be found [here](https://justingolden.me/)
 
 <hr>
 

@@ -11,3 +11,4 @@ scroll through carousel of images/screenshots in modal?
 only open modal if not clicking on link to open project in new tab
 add 404?
 add blackjack, liars dice, big fish
+add android apps i've made, add stories i've written, add rgb homepage link?

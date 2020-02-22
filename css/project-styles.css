@@ -36,6 +36,9 @@
 .project-div:hover .project-details {
 	display: inline;
 }
+.project-details a, .project-desc-link {
+	font-weight: bold;
+}
 
 /* modals */
 .modal-content {

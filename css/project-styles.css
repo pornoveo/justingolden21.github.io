@@ -40,6 +40,10 @@
 	font-weight: bold;
 }
 
+#projects-div h1 {
+	font-weight: bold;
+}
+
 /* modals */
 .modal-content {
 	border: 2px solid #999;

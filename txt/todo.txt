@@ -10,3 +10,4 @@ add copy link to my website btn?
 scroll through carousel of images/screenshots in modal?
 only open modal if not clicking on link to open project in new tab
 add 404?
+add blackjack, liars dice, big fish

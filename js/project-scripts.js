@@ -1,6 +1,10 @@
+const PROJECT_TYPES = 'web app, chrome extension, website'.split(',');
+//todo add: android app, youtube tutorial, program, script, article, graphic design, story
+
 const PROJECTS = [
 	{
-		'name': 'Desktop Clock', 
+		'name': 'Desktop Clock',
+		'type': 'web app',
 		'icon': 'img/projects/desktop-clock-icon.svg',
 		'color': '#999',
 		'screenshot': 'img/projects/desktop-clock-screenshot.png',
@@ -12,6 +16,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Chrome Notes',
+		'type': 'chrome extension',
 		'icon': 'img/projects/chrome-notes-icon.svg',
 		'color': '#f90',
 		'screenshot': 'img/projects/chrome-notes-screenshot.png',
@@ -23,6 +28,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'SongsSearcher',
+		'type': 'website',
 		'icon': 'img/projects/songssearcher-icon.svg',
 		'color': '#333',
 		'screenshot': 'img/projects/songssearcher-screenshot.png',
@@ -34,6 +40,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Color Convert',
+		'type': 'website',
 		'icon': 'img/projects/color-convert-icon.svg',
 		'color': '#933',
 		'screenshot': 'img/projects/color-convert-screenshot-2.png',
@@ -46,6 +53,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'DnD Dice',
+		'type': 'website',
 		'icon': 'img/projects/dnd-dice-icon.svg',
 		'color': '#339',
 		'screenshot': 'img/projects/dnd-dice-screenshot.png',
@@ -59,6 +67,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Grade Calc',
+		'type': 'website',
 		'icon': 'img/projects/grade-calc-icon.svg',
 		'color': '#393',
 		'screenshot': 'img/projects/grade-calc-screenshot.jpg',
@@ -71,6 +80,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Binomial Calc',
+		'type': 'website',
 		'icon': 'img/projects/binomial-calc-icon.svg',
 		'color': '#66c',
 		'screenshot': 'img/projects/binomial-calc-screenshot.png',
@@ -83,6 +93,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Barcode',
+		'type': 'website',
 		'icon': 'img/projects/barcode-icon.svg',
 		'color': '#333',
 		'screenshot': 'img/projects/barcode-screenshot.jpg',
@@ -95,6 +106,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'SimpleShot',
+		'type': 'chrome extension',
 		'icon': 'img/projects/simple-shot-icon.svg',
 		'color': '#666',
 		'screenshot': 'img/projects/simple-shot-screenshot.png',
@@ -107,6 +119,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Copylink',
+		'type': 'chrome extension',
 		'icon': 'img/projects/copylink-icon.svg',
 		'color': '#f93',
 		'screenshot': 'img/projects/copylink-screenshot.png',
@@ -119,6 +132,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Base Converter',
+		'type': 'website',
 		'icon': 'img/projects/base-converter-icon.svg',
 		'color': '#339',
 		'screenshot': 'img/projects/base-converter-screenshot.jpg',
@@ -131,6 +145,7 @@ const PROJECTS = [
 	},
 	{
 		'name': 'Doodle Pad',
+		'type': 'website',
 		'icon': 'img/projects/doodle-pad-icon.svg',
 		'color': '#393',
 		'screenshot': 'img/projects/doodle-pad-screenshot.jpg',
@@ -161,9 +176,8 @@ $( ()=> {
 	// rand img
 	$('#profile-img').prop('src', 'img/profile/' + Math.ceil(Math.random()*4) + '.png');
 
-	let tmpHTML = '';
 	for(let i=0; i<PROJECTS.length; i++) {
-		tmpHTML += '<div class="project-div col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal-'+i+'">'+
+		let tmpHTML = '<div class="project-div col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal-'+i+'">'+
 			'<div class="project-div-inner">'+
 			
 			'<div class="project-div-front">'+
@@ -210,6 +224,6 @@ $( ()=> {
 			'</div>' +
 			'</div>' +
 			'</div>';
+		$('#'+PROJECTS[i].type.replace(' ', '-')+'-div').append(tmpHTML);
 	}
-	$('#projects-div').append(tmpHTML);
 });

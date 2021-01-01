@@ -34,7 +34,7 @@ const PROJECTS = [
 		'screenshot': 'img/projects/songssearcher-screenshot.png',
 		'link': 'https://songssearcher.com',
 		'desc': 'is a website where users can search and preview songs and view album art.',
-		'features': 'Search songs by title, artist, or album. Find links to the track, artist, and album on Apple Music, as well as song length, release date, and more. View and download full definition album artwork, or listen to a preview of the song. Users can eaasily print the results, filter by country, and find quick links to search YouTube, the lyrics, or the beats per minute. There is also a night mode, and the logo animates when you search.',
+		'features': 'Search songs by title, artist, or album. Find links to the track, artist, and album on Apple Music, as well as song length, release date, and more. View and download full definition album artwork, or listen to a preview of the song. Users can easily print the results, filter by country, and find quick links to search YouTube, the lyrics, or the beats per minute. There is also a night mode, and the logo animates when you search.',
 		'tech': 'I designed the website with Bootstrap, jQuery, and FontAwesome. It uses the iTunes API to gather song data.',
 		'story': 'I spent a lot of time designing the UI for this website, as well as designing the logo and adding new features. I made the website very lightweight so users can quickly find results for any search and get to exactly what they wanted to find.'
 	},
